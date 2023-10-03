@@ -99,4 +99,10 @@ the command outputed that passed in path was directory wich is correct as the pa
 in the file system \
 The above output is an error informing the user that the passed path is not a file, which cat needs inorder to print stored
 cotent within a file
+
+### cat with path to file 
+
+Working directory before was /home \
+The command displayed the file's content by printing it to the console \
+the above output is not an error
 ___
