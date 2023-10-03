@@ -6,4 +6,4 @@ un ordered list
 * item1
 * item2
 ____
-(cse website)[ucsd-cse15l-f23.github.io/week/week1/]
+[cse website](https://ucsd-cse15l-f23.github.io/week/week1/)
