@@ -39,7 +39,7 @@ bash: cd: messages/de.txt: Not a directory
 ```
 working directory before was /home/lecture1 \
 The output of the command was an error  message reporting that cd could not open files \
-The output was an error, This would make sense as cd chages directories and is unable to do that opperation on a file \ 
+The output was an error, as cd is unable to change to a dictory that is not a directory such as a file \ 
 ___
 
 ## **ls**
