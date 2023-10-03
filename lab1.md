@@ -10,8 +10,7 @@ ___
 [user@sahara ~]$
 ```
 working directory before was /home \
-No notice differnce occured aftering running the command, no directory changed occured as the command did not specify what
-directory to change into \
+No notice differnce occured aftering running the command, no directory changed occured as no directory was passed to the cd command \
 The output was not a error 
 
 ### CD with path to directory
