@@ -9,7 +9,7 @@ ___
 [user@sahara ~]$ cd
 [user@sahara ~]$
 ```
-* working directory before was /home
+* working directory before was `/home`
 * No notice differnce occured aftering running the command, no directory changed occured as no directory was passed to the cd command
 * The output was not a error 
 
@@ -65,8 +65,8 @@ in the current directory and only the piece of content in the `/home` directory 
 Hello.class  Hello.java  messages  README
 [user@sahara ~]$
 ```
-* working directory before was /home
-* The output above should the directory content of /home/lecture1, this contained both files and directories within the lecture1
+* working directory before was `/home`
+* The output above printed the directory content of `/home/lecture1` path. This output contained both files and directories within the lecture1
 directories 
 * The out put was not an error
 
@@ -77,7 +77,7 @@ lecture1/messages/de.txt
 [user@sahara ~]$
 ```
 * working directory before was `/home` 
-* The output was identical to the path passed to the ls command and no other information
+* The output was identical to the path passed to the ls command with no other information with it.
 * The output was not an error 
 ___
 
@@ -87,14 +87,14 @@ ___
 
 
 * Working directory before was `/home`
-* Initialy the command did nothing but return the carret to the next line, but after that cat started to consume lines
+* Initialy the command did nothing but return the carret to the next line and removed the terminal prompt, but after that cat started to consume lines
 typed in and reapted them back out, until I fored closed cat using `ctrl-c`
-* The above output was not an error
+* The above output was not an error, but maybe consider undiserable beahvior
 
 ### cat with path to directory
 
 * Working directory before was `/home` 
-* the command outputed that passed in path was directory wich is correct as the passed path of lecture1 is a directory
+* the command outputed that the passed in path was a directory wich is correct as the passed path of lecture1 is a directory
 in the file system
 * The above output is an error informing the user that the passed path is not a file, which cat needs inorder to print stored
 cotent within a file
