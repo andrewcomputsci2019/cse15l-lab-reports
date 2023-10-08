@@ -13,7 +13,7 @@ ___
 * No noticeable difference occurred to the terminal or terminal prompt, and no directory change occurred as no directory was passed to the cd command
 * The output was not an error 
 
-### `cd` with path to directory
+### `cd` with a path to a directory
 
 ```shell
 [user@sahara ~]$ pwd
@@ -28,7 +28,7 @@ ___
 in the user's home directory 
 * the output is not an error 
 
-### `cd` with path to a File 
+### `cd` with a path to a file 
 
 ```shell
 [user@sahara ~/lecture1]$ pwd
@@ -58,7 +58,7 @@ lecture1
 in the current directory, and only the piece of content in the `/home` directory is lecture1 explaining why it was printed
 * The output of the command was not an error
 
-### `ls` with directory path
+### `ls` with a path to a directory
 
 ```shell
 [user@sahara ~]$ ls lecture1/
@@ -70,14 +70,14 @@ Hello.class  Hello.java  messages  README
 directory on the file system
 * The output was not an error
 
-### `ls` with file path
+### `ls` with a path to a file
 ```shell
 [user@sahara ~]$ ls lecture1/messages/de.txt 
 lecture1/messages/de.txt
 [user@sahara ~]$
 ```
 * working directory before was `/home` 
-* The output of the command was identical to the path passed to the command, with no other information printed with it.
+* The output of the command was identical to the path passed to the command, with no other information printed along with it.
 * The output was not an error 
 ___
 
@@ -90,7 +90,7 @@ ___
 typed into the terminal and repeated them back out, until I forced closed cat using `ctrl-c`
 * The above output was not an error but may be considered undesirable behavior
 
-### `cat` with path to directory
+### `cat` with a path to a directory
 ![Screenshot 2023-10-08 111939](https://github.com/andrewcomputsci2019/cse15l-lab-reports/assets/54915639/d3e11f0b-259c-449b-ac00-277f95d8607d)
 * Working directory before was `/home` 
 * the command output, stated that the passed-in path, `lecture1`, was a directory which is correct as the passed path of `lecture1` is a directory
@@ -98,7 +98,7 @@ in the file system
 * The above output is an error informing the user that the passed path is not a file, which cat needs in order to print stored
 content within a file
 
-### `cat` with path to file 
+### `cat` with a path to a file 
 ![Screenshot 2023-10-08 112602](https://github.com/andrewcomputsci2019/cse15l-lab-reports/assets/54915639/45935470-18aa-46e6-8c93-2c23c0b6c116)
 * Working directory before was /home
 * The command displayed the content of the file de.txt by printing it to the console, which makes sense as cat prints files content and the passed path was the path to the `de.txt` file.
