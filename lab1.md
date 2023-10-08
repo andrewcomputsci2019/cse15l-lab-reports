@@ -101,6 +101,5 @@ content within a file
 ### `cat` with a path to a file 
 ![Screenshot 2023-10-08 112602](https://github.com/andrewcomputsci2019/cse15l-lab-reports/assets/54915639/45935470-18aa-46e6-8c93-2c23c0b6c116)
 * Working directory before was /home
-* The command displayed the content of the file de.txt by printing it to the console, which makes sense as cat prints files content and the passed path was the path to the `de.txt` file.
+* The command displayed the content of the file de.txt by printing it to the console, which makes sense as cat prints a file's content, and the passed path was the path to the `de.txt` file.
 * The above output is not an error
-___
