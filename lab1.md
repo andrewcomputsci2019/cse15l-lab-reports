@@ -9,6 +9,14 @@ ___
 [user@sahara ~]$ cd
 [user@sahara ~]$
 ```
+second example
+```shell
+[user@sahara ~/lecture1]$ pwd
+/home/lecture1
+[user@sahara ~/lecture1]$ cd
+[user@sahara ~]$ pwd
+/home
+```
 * working directory before was `/home`
 * No noticeable difference occurred to the terminal or terminal prompt, and no directory change occurred. I tested this again in another directory and it quickly became apparent that `cd` with no arguments returns the user to the home directory.
 * The output was not an error 
@@ -88,7 +96,7 @@ ___
 * Working directory before was `/home`
 * Initially the command did nothing but return the cursor to the next line and removed the terminal prompt, but after that cat started to consume lines
 typed into the terminal and repeated them back out, until I forced closed cat using `ctrl-c`
-* The above output was not an error but may be considered undesirable behavior
+* The above output was not an error and is not considered undesirable behavior from a programming perspective, but personally I find it undesirable to have this behavior.
 
 ### `cat` with a path to a directory
 ![Screenshot 2023-10-08 111939](https://github.com/andrewcomputsci2019/cse15l-lab-reports/assets/54915639/d3e11f0b-259c-449b-ac00-277f95d8607d)
