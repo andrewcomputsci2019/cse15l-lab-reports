@@ -10,7 +10,7 @@ ___
 [user@sahara ~]$
 ```
 * working directory before was `/home`
-* No noticeable difference occurred to the terminal or terminal prompt, and no directory change occurred as no directory was passed to the cd command
+* No noticeable difference occurred to the terminal or terminal prompt, and no directory change occurred. I tested this again in another directory and it quickly became apparent that `cd` with no arguments returns the user to the home directory.
 * The output was not an error 
 
 ### `cd` with a path to a directory
