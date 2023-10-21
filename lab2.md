@@ -38,16 +38,16 @@ ___
 <img width="660" alt="Screenshot 2023-10-18 at 11 00 44 AM" src="https://github.com/andrewcomputsci2019/cse15l-lab-reports/assets/54915639/b403436a-d768-4c65-a4f4-4ae2b0b15e44">
 
 * The Method called in my code is the `handleRequest` method found inside of my `Handler` class
-* There is one relevant argument to my method that being the URI url argument, containing the url `/add-message?s=hello%20world`, passed into the method. There are two class fields that are revenant to this method. Those being `int num` and `StringBuilder builder`. Their values respectfully are `1` and `""` (empty string) when the method is called.
-* The two fields are changed during the execution of this method, The first being the `builder` field which is mutated such that the `num` field and the string from the url query parameter are append onto `builder`. In this example `builder` changes from `""` to `1. hello world\n`. `num` also changes as it is incremented in the method, meaning `num` changes from `1` to `2`
+* There is one relevant argument to my method that being the URI url argument, containing the url `/add-message?s=hello%20world`, passed into the method. There are two class fields that are revenant to this method. Those being `int num` and `StringBuilder builder`. Their values respectfully are `1` and `""` (empty string) when the method is called
+* The two fields are changed during the execution of this method, The first being the `builder` field which is mutated such that the `num` field and the string from the url query parameter are append onto `builder` In this example `builder` changes from `""` to `1. hello world\n`. `num` also changes as it is incremented in the method, meaning `num` changes from `1` to `2`
 ---
 ### String Server Second Request
 <!--- image here--->
 <img width="690" alt="Screenshot 2023-10-18 at 11 00 55 AM" src="https://github.com/andrewcomputsci2019/cse15l-lab-reports/assets/54915639/86c7ebaa-c4ab-4754-80b9-12cc88782982">
 
 * Same as the first example the method called in my called is the `handleRequest` method in my `Handler` class
-* Still there is only one relevant argument to my method that being the URI url argument,which has the the url value of `/add-message?s=good%20bye%20world`. There are still the two same class field relevant to my method, those being `builder` and `num`. Before and during the start of the method call the fields have the values of `1. hello world\n` and `2` respectfully.
-* After the method call `builder` is appended with `2. good bye world\n` and `num` is incremented to `3`. `builder` final value is `1. hello world\n2. good bye world\n`
+* Still there is only one relevant argument to my method that being the URI url argument,which has the the url value of `/add-message?s=good%20bye%20world`. There are still the two same class field relevant to my method, those being `builder` and `num`. Before and during the start of the method call the fields have the values of `1. hello world\n` and `2` respectfully
+* After the method call `builder` is appended with `2. good bye world\n` and `num` is incremented to `3` .  `builder` final value is `1. hello world\n2. good bye world\n`
 ---
 ## Part 2 - SSH keys
 <img width="647" alt="Screenshot 2023-10-20 at 9 51 41 PM" src="https://github.com/andrewcomputsci2019/cse15l-lab-reports/assets/54915639/83a55490-bc1e-4606-a8fb-1d8d0b1e0659">
