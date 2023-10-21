@@ -59,5 +59,5 @@ ___
 
 ---
 ## What I have learned from weeks 2 & 3
-The first thing I learned from weeks 2 and 3 was SSH config files which are really cool and allowed me to specify what private keys correspond to different hosts and what users to use on those different hosts. This ultimately lets me just type the hostname of the ssh server I want to connect too and it will use the config file to figure everything out for me, super cool. The second thing I learned from weeks 2 and 3 was Java's in-built http provider, I have always used the Spring framework to create web servers in Java, so it was interesting to learn and see the differences within Java's built in style/method.
+The first thing I learned from weeks 2 and 3 was SSH config files which are really cool and allowed me to specify what private keys correspond to different hosts and what users to use on those different hosts. This ultimately lets me just type the hostname of the SSH server I want to connect to and it will use the config file to figure everything out for me, super cool. The second thing I learned from weeks 2 and 3 was Java's in-built http provider, I have always used the Spring framework to create web servers in Java, so it was interesting to learn and see the differences within Java's built-in style/method.
 
