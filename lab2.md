@@ -52,6 +52,5 @@ ___
 <img width="650" alt="Screenshot 2023-10-20 at 9 53 07 PM" src="https://github.com/andrewcomputsci2019/cse15l-lab-reports/assets/54915639/88d87926-20bf-416e-839e-5653d8fa73ff">
 <img width="647" alt="Screenshot 2023-10-20 at 9 54 07 PM" src="https://github.com/andrewcomputsci2019/cse15l-lab-reports/assets/54915639/b2ef5fbd-ac71-4c48-8629-2866d3f12811">
 ___
-
-
+## what I have learned from weeks 2 & 3
 The first thing a learned from weeks 2 and 3 was ssh config files which are really cool and allow me to specify what private keys correspond to different hosts with out me memory where each keys exist on my filesystem. The second thing I learned from weeks 2 and 3 was java in built http provider, I have always used the spring framework to create web-servers in java, so it was interesting to learn and see the differences within java in built style/method.
