@@ -39,7 +39,7 @@ ___
 * The Method called in my code is the `handleRequest` method found inside of my `Handler` class
 * There is one relevant argument to my method that being the URI url argument, containing the url `/add-message?s=hello%20world`, passed into the method. There are two class fields that are revenant to this method. Those being `int num` and `StringBuilder builder`. Their values respectfully are `1` and `""` (empty string) when the method is called
 * The two fields are changed during the execution of this method, The first being the `builder` field which is mutated such that the `num` field and the string from the url query parameter are append onto `builder` In this example `builder` changes from `""` to `1. hello world\n`. `num` also changes as it is incremented in the method, meaning `num` changes from `1` to `2`
----
+___
 ### String Server Second Request
 <!--- image here--->
 ![screenshot 2](https://github.com/andrewcomputsci2019/cse15l-lab-reports/assets/54915639/86c7ebaa-c4ab-4754-80b9-12cc88782982)
