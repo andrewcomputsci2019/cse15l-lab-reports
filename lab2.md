@@ -53,8 +53,8 @@ ___
 ___
 
 ## Part 2 - SSH keys
-![](https://github.com/andrewcomputsci2019/cse15l-lab-reports/assets/54915639/83a55490-bc1e-4606-a8fb-1d8d0b1e0659)
-![](https://github.com/andrewcomputsci2019/cse15l-lab-reports/assets/54915639/88d87926-20bf-416e-839e-5653d8fa73ff)
+![](https://github.com/andrewcomputsci2019/cse15l-lab-reports/assets/54915639/3a9f61b9-61af-49d3-b99c-d9a830e33994)
+![](https://github.com/andrewcomputsci2019/cse15l-lab-reports/assets/54915639/36623f4b-a176-4de3-8757-b7eeb26a53f4)
 ![](https://github.com/andrewcomputsci2019/cse15l-lab-reports/assets/54915639/b2ef5fbd-ac71-4c48-8629-2866d3f12811)
 
 ---
