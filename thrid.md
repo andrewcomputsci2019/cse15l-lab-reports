@@ -43,8 +43,8 @@
     }
 ```
 * Test Output from above \
-***Test failure output*** \
-***Non test failure input***
+***Test failure output*** and ***Non test failure input***
+![test output]()
 * Code Before and After
 ```java
   // Returns a new list that has all the elements of the input list for which
