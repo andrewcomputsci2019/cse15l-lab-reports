@@ -44,7 +44,7 @@
 ```
 * Test Output from above \
 ***Test failure output*** and ***Non test failure input***
-![test output]()
+![test output](https://github.com/andrewcomputsci2019/cse15l-lab-reports/assets/54915639/5a998aba-aad8-4fcf-b25f-59ca34f39276)
 * Code Before and After
 ```java
   // Returns a new list that has all the elements of the input list for which
