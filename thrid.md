@@ -104,8 +104,8 @@ andrewpegg@Andrews-MacBook-Pro docsearch %
 ```
 The `--include` and `--exclude` provide a way to match filenames and extensions with a pattern, which allows more control of what files are scanned with grep. This helpful when with running with recursive grep option as as it allows to you specify what file extension to search or even pattern for filenames themselves, or as shown above you can do both at the same time by giving a specific pattern of the filename and file-extension you are interested or not interested in scanning. This can be useful for example when a directory may contain binary files that you don't want to scan. All information was obtained from the man page for grep
 * `-w` option
-```
-grep -rwi -m 15  "taxes" ./technical/government/
+```sh
+$ grep -rwi -m 15  "taxes" ./technical/government/
 ./technical/government/About_LSC/commission_report.txt:taxes for H-2A workers. See March Testimony at 157 (testimony of
 ./technical/government/Env_Prot_Agen/jeffordslieberm.txt:of Distorting Taxes" Journal of Policy Analysis and Management
 ./technical/government/Gen_Account_Office/Sept14-2002_d011070.txt:additional taxes are being assessed within 5 to 8 months, much
@@ -149,8 +149,8 @@ grep -rwi -m 15  "taxes" ./technical/government/
 ./technical/government/Media/The_Columbian.txt:program because taxes and accounting costs would eat away the money
 ./technical/government/Post_Rate_Comm/Mitchell_RMVancouver.txt:such things as the payment of taxes, the need for a return on
 ```
-```
-grep -rwi "DNA replication" ./technical/biomed/
+```sh
+$ grep -rwi "DNA replication" ./technical/biomed/
 ./technical/biomed/1471-2091-2-13.txt:        proteins are their expression during DNA replication [ 1 ]
 ./technical/biomed/1471-2091-3-13.txt:        DNA replication intermediates, but much weaker relaxation
 ./technical/biomed/1471-2091-3-13.txt:        plasmid DNA replication intermediates [ 19 ] . Removal of
