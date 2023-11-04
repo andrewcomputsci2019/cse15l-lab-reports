@@ -43,7 +43,7 @@
     }
 ```
 * Test Output from above \
-***Test failure output*** and ***Non test failure input***
+***failure indcuing input test output*** and ***non-failure inducing input test output***
 
 ![test output](https://github.com/andrewcomputsci2019/cse15l-lab-reports/assets/54915639/ecba8c1f-85e9-4769-a865-aad789c2864c)
 * Code Before and After
