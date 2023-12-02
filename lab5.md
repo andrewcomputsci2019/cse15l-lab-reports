@@ -21,7 +21,6 @@
         ````
     * Contents of files
         * Main.java
-
             ```java
                 import java.util.List;
                 import java.util.ArrayList;
@@ -61,7 +60,7 @@
                         return ans;
                     }
                 }
-                ```
+            ```
         * startAndTest.sh
             ```bash
                 echo "starting java code with arguments $1 $2"
@@ -90,5 +89,7 @@
     * Description to fix bugs
         * To fix the first noted bug the user needs to change line 34 from `a.get(indexB++)` to `b.get(indexB++)`. This changes the behavior from copying from list `a` to that of copying from list `b`.
         * The last bug fix is on line 27 where the user needs to change `a.get(indexA)` to `a.get(indexA++)` to make sure to update `indexA` index position. This fixes the infinite loop bug and allows the program to operate normally.
+
+
 ## Part2 Reflection
 The second half of this class has taught me several things that I did not know before. One of them was `grep`, which I did know some of, but not to the level I know now. I learned how to use `grep` effectively by learning extended grep patterns, as well as inverse matching, along with grep usage alongside `awk` and `sed`. I have completely gained an appreciation for command line tools like `grep`, which seem simple but are super complex and have tons of use cases. The other final thing I learned through the second part of this course was `jdb`, which at first seemed a little silly to use as most IDEs provide debugging suites that provide much more utility. It was after I started to use it that it started to make more sense, like what if I am debugging a program in a non-developer environment like a server or another remote application, or what if space, where I don't need to have an IDE open, then starting an IDE just to have a debugger, seems like a waste and also slows down developer efficiently.
